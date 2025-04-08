@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthyBites - Recipes</title>
+  <link rel="stylesheet" href="css/recipe.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">HealthyBites</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="mealplan.html">Meal Plan</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="meal-plan">
+      <h2>Your Weekly Meal Plan</h2>
+
+      <!-- Dropdown to select meal plan type -->
+      <label for="dietary-plan">Select your dietary plan:</label>
+      <select id="dietary-plan">
+        <option value="diabetic">Diabetic</option>
+        <option value="vegan">Vegan</option>
+        <option value="keto">Keto</option>
+        <!-- Add more options as needed -->
+      </select>
+
+      <div id="meal-plan-content">
+        <!-- The meal plan content will be dynamically updated here based on user selection -->
+      </div>
+    </section>
+  </main>
+
+  <script src="jscode/meal.js"></script>
+</body>
+</html>

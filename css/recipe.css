@@ -54,6 +54,23 @@
   }
 
 
+  .search-container {
+    margin-bottom: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #searchInput {
+    padding: 0.7em 1em;
+    width: 50%;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+  }
+  
+
+
 
 .recipes {
     padding: 4em 2em;
@@ -65,10 +82,12 @@
   
   .recipes h2 {
     font-size: 2.5em;
-    color: #388e3c;
+    color:white;
     margin-bottom: 2em;
     width: 100%;
   }
+
+  
   
   .recipe-card {
     background-image:white;
